@@ -1,4 +1,5 @@
 /* hamburger menu */
+let body = document.getElementsByTagName('body')
 let menu = document.getElementById('menu')
 let menuBar = document.getElementById('hamburger')
 let close = document.getElementById('close-icon')

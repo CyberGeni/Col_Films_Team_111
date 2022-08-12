@@ -254,8 +254,6 @@ footer .phone {
         padding: 0.6em;
     }
     nav {
-
-        position: fixed;
         top: unset;
         left: 0;
         width: 280px;

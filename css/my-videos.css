@@ -1,0 +1,54 @@
+.some-sorta-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upload-video {
+    background-color: #FCA311;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8em 1em;
+    border-radius: 8px;
+    font-weight: 700;
+}
+.upload-video img {
+    margin-right: 8px;
+}
+.my-videos {
+    padding-top: 6em;
+    color: white;
+}
+body {
+    position: unset;
+    overflow-x: hidden;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    margin: 2em auto;
+    border: 1px solid #E5E5E5;
+}
+thead {
+    border: 1px solid #E5E5E5;
+}
+td, th {
+    padding: 1em 0.5em;
+    font-size: 14px;
+}
+table tr:nth-child(even) {
+    background-color: #181925;
+}
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  main {
+    overflow-x: scroll;
+  }
+    th {
+        font-size: 80%;
+        padding: 10px 16px;
+    }
+}
