@@ -59,10 +59,28 @@
         </ul>
         <img id="close-icon" src="images/close.svg" alt="">
     </nav>
+    <!-- The Modal -->
+    <aside id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1>Upload videos</h1>
+                <img class="close" src="images/close.svg" alt="">
+            </div>
+            <div class="file-upload-container">
+                <label for="file-upload" class="custom-file-upload">
+                    <img src="images/upload-icon.svg" alt="" srcset="">
+                    <span>Drag and drop files to upload</span> 
+                    <button>SELECT FILES</button>
+                </label>
+                <input id="file-upload" type="file"/>
+            </div>
+        </div>
+    </aside>
     <main class="my-videos">
         <div class="some-sorta-header">
             <h1>My Video Uploads</h1>
-            <button class="upload-video"><img src="images/plus-icon.svg" alt="">Upload a video</button>
+            <button id="openModalButton" class="upload-video"><img src="images/plus-icon.svg" alt="">Upload a video</button>
         </div>
         
         <table>
